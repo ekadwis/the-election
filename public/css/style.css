@@ -1,0 +1,307 @@
+/* Edited Bootstrap */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bs-purple: #6e33f5;
+  --bs-purple-rgb: 110, 51, 245;
+  --bs-hasil: 56, 56, 56;
+}
+
+.link-purple {
+  color: #6e33f5;
+  text-decoration: none;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #6e33f5;
+  border-color: #6e33f5;
+}
+
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-hasil {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-hasil), var(--bs-bg-opacity)) !important;
+}
+
+.mt-4-5 {
+  margin-top: 2rem;
+}
+
+.border-purple {
+  border-color: #6e33f5 !important;
+}
+
+.accordion-button {
+  color: #fff !important;
+  background-color: #212529 !important;
+  justify-content: flex-start !important;
+  padding: 1rem 0 !important;
+}
+
+.accordion-item {
+  background-color: #212529 !important;
+  border: none !important;
+}
+
+.accordion-button.collapsed {
+  color: #e7f1f4 !important;
+  background-color: #212529 !important;
+}
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) {
+  color: #e7f1f4 !important;
+  background-color: #212529 !important;
+}
+
+#accordion {
+  text-align: left;
+}
+
+hr {
+  color: #fff;
+  height: 2px !important;
+}
+
+.text-abu {
+  color: #999;
+}
+
+.progress {
+  height: 0.7rem;
+}
+
+/* .card-img-overlay {
+  flex-wrap: wrap-reverse;
+} */
+
+/* End Edited Bootstrap */
+
+/* Navbar */
+
+.navbar {
+  height: 80px;
+  width: 100%;
+}
+
+.primary {
+  border-bottom-width: 10px !important;
+  border-bottom-color: #6e33f5 !important;
+}
+
+/* End Navbar  */
+
+/* Homepage */
+
+.homepage {
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.homepage .left-side .text h1 {
+  font-size: 56pt;
+}
+
+.homepage .left-side .text h5 {
+  font-size: 14pt;
+}
+
+.btn-purple {
+  padding: 18px 25px !important;
+}
+
+.right-side img {
+  width: 600px;
+}
+/* End Homepage */
+
+/* Login */
+
+.login .left-side img {
+  margin: 20% 0;
+}
+
+.login .right-side h1 {
+  font-size: 32pt;
+}
+
+.login .right-side h5 {
+  font-size: 11pt;
+}
+
+.right-side {
+  margin: auto 0;
+}
+
+.login-form {
+  width: 447px;
+}
+
+.form-control {
+  height: 50px;
+  color: #999999 !important;
+  background-color: #383838 !important;
+  border: 1px solid #383838 !important;
+}
+
+.login .btn-purple {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50%;
+  padding: 0.375rem 0.75rem;
+}
+/* End Login */
+
+/* Pasangan Calon - Detail  */
+
+.deskripsi h2 {
+  font-size: 22pt;
+}
+
+.gambar1 img {
+  margin: 10% 0;
+  width: 100%;
+  height: 380px;
+  border-radius: 0 0 0 10rem !important;
+}
+
+.gambar2 img {
+  margin: 10% 0;
+  width: 100%;
+  height: 380px;
+  border-radius: 0 10rem 0 0 !important;
+}
+
+/* End Pasangan Calon - Detail  */
+
+/* Token Konfirmasi  */
+
+.token img {
+  width: 100%;
+  height: 350px;
+}
+
+.token .row {
+  margin-top: 100px !important;
+}
+
+.token .btn-purple {
+  padding: 12px 18px !important;
+}
+
+.token label {
+  margin-top: 20px !important;
+}
+/* End Token Konfirmasi  */
+
+/* Countdown  */
+
+.countdown {
+  margin: 70px 30%;
+}
+
+/* .countdown img {
+  width: 40%;
+  height: 40%;
+} */
+
+/* End Countdown  */
+
+/* Paslon  */
+
+.paslon .item {
+  width: 276px;
+}
+
+.paslon img {
+  width: 100%;
+  height: 359px;
+}
+
+.paslon .content-paslon a {
+  padding: 10px 8px !important;
+}
+
+/* .content-paslon p {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0;
+} */
+/* End Paslon  */
+
+/* Hasil  */
+
+.hasil img {
+  width: 80%;
+  height: 350px;
+  margin: 45px 10%;
+}
+
+.progress1,
+.progress2,
+.progress3 {
+  padding: 12px 30px 1px 30px;
+}
+
+.paslon-text {
+  margin-bottom: 7px;
+}
+
+/* End Hasil  */
+
+/* Finished Confirm  */
+
+.finished {
+  margin-top: 10%;
+}
+
+.finished h5 {
+  padding-bottom: 90px;
+}
+
+/* End Finished Confirm  */
+
+/* Mobile Version */
+
+@media only screen and (max-width: 768px) {
+  /* Token  */
+
+  .token .gambar {
+    display: none;
+  }
+
+  /* End Token  */
+
+  /* Countdown  */
+
+  .countdown {
+    margin: 50px 10%;
+  }
+
+  /* End Countdown  */
+
+  /* Paslon  */
+
+  .paslon {
+    text-align: center;
+  }
+
+  .paslon .item {
+    width: 80%;
+    margin: 20px 10%;
+  }
+
+  /* End Paslon  */
+}
+
+/* End Mobile Version  */
